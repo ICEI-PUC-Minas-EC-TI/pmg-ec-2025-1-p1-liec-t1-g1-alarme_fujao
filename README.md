@@ -15,7 +15,7 @@
 * Bernardo Raoni Oliveira Freitas
 * Gabriel Henrique Vieira de Oliveira 
 * Kenderson Santana Dias
-* Nome completo do aluno 5
+* Yan Lucas Coelho Silva
 
 ## Orientador
 
