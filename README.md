@@ -1,29 +1,29 @@
 # TÍTULO DO PROJETO
 
-`CAMPUS/UNIDADE`
+`PUC MINAS CORAÇÃO EUCARÍSTICO - ICEI`
 
-`CURSO`
+`ENGENHARIA DE COMPUTAÇÃO`
 
-`SEMESTRE`
+`PRIMEIRO SEMESTRE`
 
-`DISCIPLINA`
+`LABORATÓRIO DE INTRODUÇÃO A COMPUTAÇÃO`
 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Alexandre Souza Pereira
+* Bernardo Raoni Oliveira Freitas
+* Gabriel Henrique Vieira de Oliveira 
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
 ## Orientador
 
-* Nome completo do professor 1
+* Felipe Augusto Lara Soares
 
 ## Resumo
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Um despertador RTC ativado via um aplicativo de celular, que só pode ser desativado através de um botão acoplado a um robô que anda pela casa.
 
 # Código (do arduino ou esp32)
 
