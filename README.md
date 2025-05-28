@@ -14,7 +14,7 @@
 * Alexandre Souza Pereira
 * Bernardo Raoni Oliveira Freitas
 * Gabriel Henrique Vieira de Oliveira 
-* Nome completo do aluno 4
+* Kenderson Santana Dias
 * Nome completo do aluno 5
 
 ## Orientador
