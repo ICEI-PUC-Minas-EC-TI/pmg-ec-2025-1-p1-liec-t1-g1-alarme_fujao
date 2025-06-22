@@ -26,3 +26,4 @@ As ferramentas utilizadas no projeto foram:
 - Arduino IDE.
 - MIT App Inventor.
 - Trello. 
+- Tinkercad.
