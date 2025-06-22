@@ -1,4 +1,4 @@
 # Apresentação da Solução
 
 Use esta pasta para salvar o vídeo demonstrando o funcionamento do projeto e as fotos para documentação do mesmo.
-[fotos](Apresentacao/Fotos do Prototipo/)
+![fotos](Apresentacao/Fotos-do-Prototipo/foto.jpg)
