@@ -37,7 +37,7 @@ Um despertador RTC ativado via um aplicativo de celular, que só pode ser desati
 
 <ol>
 <li><a href="Apresentacao/README.md"> Vídeo do Funcionamento</a></li>
-<li><a href="Apresentacao/README.md"> Fotos do Projeto<Apresentacao/Fotos do Prototipo></li>
+<li><a href="Apresentacao/README.md"> Fotos do Projeto</a></li>
 </ol>
 
 # Manual de Utilização
