@@ -12,10 +12,7 @@ Os materiais utilizados no projeto foram:
 
 # Desenvolvimento
 
-## Desenvolvimento do alarme:
-- Primeiramente, foram feitos prototipos no simulador online "Tinkercad", depois, ultilizou-se uma protoboard, e o display de 7 segmentos (4 digitos) + o Módulo RTC, para desenvolver o circuito, seguido do código.
-## Desenvolvimento do Robô:
-- Foram realizados encontros semanais nos laboratórios da universidade, onde o robô foi de pouco a pouco sendo montado pelos integrantes da equipe de desenvolvimento, a partir do manual do Kit Chassi 2WD, e pesquisas na internet.
+Descreva aqui como foi o desenvolvimento do trabalho, destacando cada uma das etapas necessárias para chegar até a solução final.
 
 ## Desenvolvimento do Aplicativo
 
@@ -31,11 +28,11 @@ Descreva o desenvolvimento do código do aplicativo.
 
 ### Montagem
 
-Descreva como foi o processo da montagem do projeto.
+Foram realizados encontros semanais nos laboratórios da Universidade, para a montagem dos circuitos (Alarme/Robô) com o auxílio de simuladores online como o "Tinkercad" e manuais de montagem como o do kit Chassi 2WD.
 
 ### Desenvolvimento do Código
 
-Descreva como foi o desenvolvimento do código do arduino/ESP.
+Desenvolvidos via Arduino IDE, com o auxilio de conteúdos encontrados em forúms, conhecimentos adquiridos nas aulas, e tutoriais na internet.
 
 ## Comunicação entre App e Hardware
 
