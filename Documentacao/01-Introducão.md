@@ -8,10 +8,10 @@ Milhares de pessoas, todos os dias, apresentam dificuldade para levantar da cama
 
 ## Objetivos
 
-O principal objetivo, é criar um incentivo para tirar as pessoas da cama nos horarios escolhidos por elas:
-Evitando a postergação do sono, 
-Aumentando a produtividade, 
-Ajudando na organização de suas rotinas.
+O principal objetivo, é desenvolver um despertador, que ao tocar, comunica um robô que passa a se locomover livremente pela casa, sendo possível desativar o alarme apenas apertando um botão acoplado ao robô, com o intuito de tirar as pessoas da cama nos horarios escolhidos por elas:
+- Evitando a postergação do sono, 
+- Aumentando a produtividade, 
+- Ajudando na organização de suas rotinas.
  
 ## Público-Alvo
 
