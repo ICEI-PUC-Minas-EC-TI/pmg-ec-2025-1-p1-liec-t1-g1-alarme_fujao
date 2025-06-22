@@ -37,8 +37,11 @@ A lógica do aplicativo foi desenvolvida por meio de blocos de programação vis
 Os principais elementos da lógica do app incluem:
 
   -> Armazenamento do horário definido em variáveis.
+  
   -> Uso de um temporizador (extensão utilizada) que verifica, a cada segundo, se o horário atual corresponde ao horário programado. 
+  
   -> Quando o alarme deve ser disparado, o app envia um comando Bluetooth (ex: caractere '1') para o ESP32.
+  
   -> A conexão Bluetooth é gerenciada por meio de blocos que tentam parear e comunicar-se com o dispositivo selecionado da lista de dispositivos próximos.
 
 Condições extras foram adicionadas para evitar o envio repetido de comandos ou envio em horários incorretos (horários maiores ou menores que 24h, por exemplo).
@@ -60,8 +63,11 @@ Desenvolvidos via Arduino IDE, com o auxilio de conteúdos encontrados em forúm
 A comunicação entre o aplicativo e o hardware (ESP32) é realizada via Bluetooth serial.
 
   -> O aplicativo envia comandos por meio do BluetoothClient do App Inventor, utilizando comunicação em formato de texto simples.
+  
   -> O ESP32 fica constantemente escutando na porta serial Bluetooth e, ao receber o comando (ex: '1'), executa ações como ativar os motores do carrinho ou iniciar a movimentação.
+  
   -> Para a conexão inicial, o usuário clica no botão "Conectar com ESP", que abre uma lista de dispositivos Bluetooth disponíveis. Após selecionar o ESP32, o app tenta parear e confirmar a conexão.
+  
   -> O status da conexão é exibido no app em tempo real, ajudando o usuário a saber se a comunicação está ativa ou se falhou.
 
 Essa integração direta entre o app e o ESP32 é o que permite a experiência única do "alarme fujão", onde o despertador literalmente se move para obrigar o usuário a acordar.
