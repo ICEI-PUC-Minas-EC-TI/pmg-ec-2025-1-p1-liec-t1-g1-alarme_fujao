@@ -9,10 +9,10 @@ Os materiais utilizados no projeto foram:
 - Botão
 - kit Chassi 4WD.
 - Sensor Ultrassônico.
-- Led Verde
+- Led Verde.
 - Display de 7 segmentos (4 digitos).
 - Módulo RTC.
-- Caixa (imprimida em 3D)
+- Caixa para o Alarme (imprimida em 3D).
 
 # Desenvolvimento
 
