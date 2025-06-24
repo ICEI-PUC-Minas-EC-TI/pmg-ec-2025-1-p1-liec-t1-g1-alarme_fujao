@@ -27,3 +27,4 @@ As ferramentas utilizadas no projeto foram:
 - MIT App Inventor.
 - Trello. 
 - Tinkercad.
+- Figma.
