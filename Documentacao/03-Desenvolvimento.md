@@ -5,8 +5,8 @@ Os materiais utilizados no projeto foram:
 - 2x ESP32.
 - 2x Jumpers Macho
 - 2x Protoboard's.
-- Buzzer
-- Botão
+- Buzzer.
+- Botão.
 - Módulo Sensor de Distância Ultrassônico (HC-SR04).
 - Kit Chassi 4WD (4 rodas) Robô para Arduino.
 - Led Verde.
