@@ -16,7 +16,7 @@ Os materiais utilizados no projeto foram:
 
 # Desenvolvimento
 
-Descreva aqui como foi o desenvolvimento do trabalho, destacando cada uma das etapas necessárias para chegar até a solução final.
+Descreva aqui como foi o desenvolvimento do trabalho, destacando cada uma das etapas necessárias para chegar até a solução final:
 
 ## Desenvolvimento do Aplicativo
 
