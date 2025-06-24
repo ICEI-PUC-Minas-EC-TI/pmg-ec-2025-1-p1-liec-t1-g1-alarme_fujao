@@ -10,18 +10,22 @@
 #define RSTpin 21 //Pino RST
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
-#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+#error Bluetooth is not enabled! Please run make menuconfig to and enable it
 #endif
 
 uint8_t broadcastAddress[] = {0x5C, 0x01, 0x3B, 0x4D, 0x23, 0xF0};
 bool receberPress = false;
 bool alarmeAtivo = false;
 
-typedef struct receberMandar {
-  bool comando;
+const int buzzer = 32;
+const int cl = 5;
+int valorRecebido = -1;
+
+typedef struct struct_message {
+  int comando;
 } receberMandar;
-receberMandar BME280Readings;
-receberMandar incomingReadings;
+struct_message msgEnvio;
+struct_message msgRecebida;
 esp_now_peer_info_t peerInfo;
 
 void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
@@ -29,22 +33,27 @@ void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
 }
 
 void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
-  memcpy(&incomingReadings, incomingData, sizeof(incomingReadings));
-  Serial.print("Bytes received: ");
-  Serial.println(len);
-  receberPress = incomingReadings.comando;
+  memcpy(&msgRecebida, incomingData, sizeof(msgRecebida));
+  
+  Serial.print("Comando recebido via ESP-NOW: ");
+  Serial.println(msgRecebida.comando);
+
+  if (msgRecebida.comando == 2 && alarmeAtivo) {
+    Serial.println("Desativando alarme via ESP Botao...");
+    digitalWrite(buzzer, LOW);
+    alarmeAtivo = false;
+    valorRecebido = -1;
+  }
 }
 
 BluetoothSerial SerialBT;
-int valorRecebido = -1;
 
 Preferences preferences;
 SevSeg sevseg;
 
 Ds1302 rtc(RSTpin, CLKpin, DATpin);
 
-const int buzzer = 32;
-const int cl = 5;
+
 
 void setup() {
   Serial.begin(115200);
@@ -89,17 +98,6 @@ void setup() {
 void loop() {
   int timeNow;
 
-  BME280Readings.comando = alarmeAtivo;
-  
-  esp_err_t result = esp_now_send(broadcastAddress, (uint8_t *) &BME280Readings, sizeof(BME280Readings));
-   
-  if (result == ESP_OK) {
-    Serial.println("Sent with success");
-  }
-  else {
-    Serial.println("Error sending the data");
-  }
-
   Ds1302::DateTime now;
   rtc.getDateTime(&now);
 
@@ -111,7 +109,7 @@ void loop() {
   if (SerialBT.available()) {
        String receivedString = SerialBT.readStringUntil('\n');
        receivedString.trim(); // Remove espaços em branco
-       if (receivedString.length() == 4 /*&& isDigit(receivedString.charAt(0)) && isDigit(receivedString.charAt(1)) && isDigit(receivedString.charAt(2)) && isDigit(receivedString.charAt(3))*/) {
+       if (receivedString.length() == 4) /*&& isDigit(receivedString.charAt(0)) && isDigit(receivedString.charAt(1)) && isDigit(receivedString.charAt(2)) && isDigit(receivedString.charAt(3))/)*/ {
          int valorRecebido = receivedString.toInt();
          Serial.print("Número recebido: ");
          Serial.println(valorRecebido);
@@ -126,6 +124,9 @@ void loop() {
     if (timeNow == preferences.getInt("valorAlarme", 0) && !alarmeAtivo) {
           digitalWrite(buzzer, HIGH);
           alarmeAtivo = true;
+
+          msgEnvio.comando = 1;
+          esp_now_send(broadcastAddress, (uint8_t *)&msgEnvio, sizeof(msgEnvio));
     }
     preferences.end();
 
