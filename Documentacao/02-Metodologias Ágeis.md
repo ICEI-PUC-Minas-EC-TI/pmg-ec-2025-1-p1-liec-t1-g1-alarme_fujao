@@ -16,7 +16,7 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 ### Processo
 
-.
+[fototrello](./fototrello.jpg
  
 
 ### Ferramentas
