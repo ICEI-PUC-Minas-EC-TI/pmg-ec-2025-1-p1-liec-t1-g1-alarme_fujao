@@ -7,6 +7,8 @@ Os materiais utilizados no projeto foram:
 - 2x Protoboard's.
 - Buzzer
 - Botão
+- kit Chassi 4WD.
+- Sensor Ultrassônico.
 - Led Verde
 - Display de 7 segmentos (4 digitos).
 - Módulo RTC.
