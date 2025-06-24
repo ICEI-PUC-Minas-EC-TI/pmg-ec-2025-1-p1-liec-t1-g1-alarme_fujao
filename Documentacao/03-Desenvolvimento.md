@@ -7,8 +7,8 @@ Os materiais utilizados no projeto foram:
 - 2x Protoboard's.
 - Buzzer
 - Botão
-- kit Chassi 4WD.
-- Sensor Ultrassônico.
+- Módulo Sensor de Distância Ultrassônico (HC-SR04).
+- Kit Chassi 4WD (4 rodas) Robô para Arduino.
 - Led Verde.
 - Display de 7 segmentos (4 digitos).
 - Módulo RTC.
