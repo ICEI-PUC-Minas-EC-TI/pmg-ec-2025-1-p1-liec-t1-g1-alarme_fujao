@@ -1,3 +1,3 @@
 # Conclusão
 
-Descreva aqui a conclusão do projeto e sugestões de trabalhos futuros (o que pode ser melhorado em versões futuras).
+Conclui-se que o alarme funciona, recebe informações via bluetooth do aplicativo, e envia informações via wi-fi para o botão remoto. Mesmo não saindo como planejado, consideramos o trabalho um sucesso.
