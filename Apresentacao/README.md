@@ -1,3 +1,3 @@
 # Apresentação da Solução
 
-- [Foto](./FotoAlarme.jpg)
+- [Foto](./FotoAlarme.jpeg)
