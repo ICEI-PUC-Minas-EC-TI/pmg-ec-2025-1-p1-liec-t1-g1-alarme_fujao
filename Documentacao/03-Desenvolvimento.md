@@ -3,12 +3,14 @@
 
 Os materiais utilizados no projeto foram:
 - 2x ESP32.
+- 2x Jumpers Macho
 - 2x Protoboard's.
-- Módulo Sensor de Distância Ultrassônico (HC-SR04).
-- Kit Chassi 2WD (2 rodas) Robô para Arduino.
-- Botão 12x12 Vermelho
+- Buzzer
+- Botão
+- Led Verde
 - Display de 7 segmentos (4 digitos).
 - Módulo RTC.
+- Caixa (imprimida em 3D)
 
 # Desenvolvimento
 
@@ -53,6 +55,7 @@ A programação aproveita os recursos nativos do App Inventor para garantir que 
 ### Montagem
 
 Foram realizados encontros semanais nos laboratórios da Universidade, para a montagem dos circuitos (Alarme/Robô) com o auxílio de simuladores online como o "Tinkercad" e manuais de montagem como o do kit Chassi 2WD.
+O botão remoto foi feito, separadamente, por dois participantes do grupo.
 
 ### Desenvolvimento do Código
 
