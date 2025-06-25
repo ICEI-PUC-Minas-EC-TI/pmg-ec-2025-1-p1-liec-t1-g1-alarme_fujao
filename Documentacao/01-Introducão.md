@@ -1,6 +1,7 @@
 # Introdução
 
-O "Alarme Fujão" é um projeto que tem como objetivo ajudar pessoas a lidarem com a improdutividade e procrastinação, de maneira descontraida e divertida, com o uso da tecnologia.
+ O "Alarme Fujão" é uma solução criativa que une tecnologia mobile com hardware embarcado para criar um despertador inovador. A proposta é simples: ao tocar o alarme, um carrinho motorizado controlado por ESP32 se movimenta, 
+ desafiando o usuário a se levantar para desligá-lo. Essa interação acontece via Bluetooth, promovendo uma experiência divertida e eficiente para começar o dia.
 
 ## Problema
 
