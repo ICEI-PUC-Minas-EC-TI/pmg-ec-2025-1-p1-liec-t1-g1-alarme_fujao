@@ -1,4 +1,4 @@
 
 ## Instruções de utilização
 
-[Manual}(./AlarmeFujao-Manual.pdf)
+[Manual](./AlarmeFujao-Manual.pdf)
