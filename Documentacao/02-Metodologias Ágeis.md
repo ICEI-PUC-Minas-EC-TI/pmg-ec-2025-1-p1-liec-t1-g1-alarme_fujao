@@ -32,7 +32,7 @@ Cada membro contribuiu com diferentes aspectos do projeto, incluindo programaç�
 
 ### Processo
 
-Nosso principal meio de comunicação e desenvolvimento foi através do Trello, com um quadro Kanban, descrito na iamgem abaixo.
+Nosso principal meio de comunicação e desenvolvimento foi através do Trello, com um quadro Kanban, descrito na imagem abaixo.
 
 <div align="center" style="margin-top: 40px;">
   <img 
