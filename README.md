@@ -17,9 +17,11 @@
 * Kenderson Santana Dias
 * Yan Lucas Coelho Silva
 
-## Orientador
+## Orientadores
 
 * Felipe Augusto Lara Soares
+* Naísses Zoia Lima
+* Sandro Jerônimo de Almeida
 
 ## Resumo
 
