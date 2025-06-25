@@ -28,3 +28,4 @@ As ferramentas utilizadas no projeto foram:
 - Trello. 
 - Tinkercad.
 - Figma.
+- Comunicação interna via WhatsApp e Discord.
