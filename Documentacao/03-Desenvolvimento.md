@@ -16,7 +16,13 @@ Os materiais utilizados no projeto foram:
 
 # Desenvolvimento
 
-Descreva aqui como foi o desenvolvimento do trabalho, destacando cada uma das etapas necessárias para chegar até a solução final:
+O desenvolvimento do projeto foi dividido entre os integrantes do grupo e envolveu etapas de planejamento, construção da interface do aplicativo, montagem do hardware e integração dos sistemas.
+
+A ideia do “Alarme Fujão” surgiu da proposta de criar um despertador interativo, que obrigasse o usuário a se mover para desligá-lo. Para isso, desenvolvemos um aplicativo no MIT App Inventor com uma interface simples, capaz de definir o horário do alarme e se comunicar via Bluetooth com o ESP32 presente no carrinho robô.
+
+Paralelamente, realizamos a montagem do circuito com sensores, buzzer, display e motores, utilizando o kit 4WD. O código do ESP32 foi desenvolvido na Arduino IDE, sendo responsável por interpretar os comandos recebidos do app e acionar os componentes físicos.
+
+Após a montagem, realizamos testes para garantir o funcionamento correto de todo o sistema e fizemos ajustes tanto na programação quanto na interface. No entanto, infelizmente o carrinho não funcionou conforme o esperado, apresentando falhas em sua movimentação. Além disso, não foi possível finalizar completamente a integração do alarme com o sistema físico. Apesar dessas limitações, o projeto apresentou avanços importantes e demonstrou, de forma funcional em partes, a proposta de integração entre hardware e software.
 
 ## Desenvolvimento do Aplicativo
 
