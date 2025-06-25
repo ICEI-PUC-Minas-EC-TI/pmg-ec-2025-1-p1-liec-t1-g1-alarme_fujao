@@ -1,3 +1,3 @@
 # Conclusão
 
-Conclui-se que o alarme funciona, recebe informações via bluetooth do aplicativo. Entretanto, tanto o robô, quanto o botão remoto, não funcionaram como o esperado.
+Conclui-se que o sistema de alarme desenvolvido cumpriu com sucesso seu papel principal, sendo capaz de receber informações via Bluetooth do aplicativo e executar corretamente a lógica programada. A comunicação entre o app e o ESP32 se mostrou estável e eficiente. No entanto, tanto o módulo robótico quanto a tentativa de substituí-lo por um botão remoto apresentaram falhas que impediram seu funcionamento adequado. Apesar dessas limitações, o projeto demonstrou boa aplicação dos conceitos de integração entre software e hardware, além de destacar a capacidade do grupo em adaptar e propor soluções alternativas diante de imprevistos técnicos e restrições de tempo.
