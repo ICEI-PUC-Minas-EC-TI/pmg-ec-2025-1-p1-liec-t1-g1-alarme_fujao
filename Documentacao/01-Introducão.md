@@ -5,7 +5,7 @@
 
 ## Problema
 
-Milhares de pessoas, todos os dias, apresentam dificuldade para levantar da cama nos horários corretos, normalmente postergando o sono, o que pode levar a compromissos perdidos, e atrasos. O projeto desenvolvido, apresenta um despertador acompanhado de um robô móvel, que podem ser posicionados em lugares estratégicos da casa. 
+Milhares de pessoas enfrentam diariamente dificuldades para acordar no horário adequado, frequentemente adiando o despertar e, consequentemente, perdendo compromissos ou chegando atrasadas. Com o objetivo de minimizar esse problema, este projeto propõe o desenvolvimento de um despertador integrado a um robô móvel, que pode ser estrategicamente posicionado em diferentes locais da casa.
 
 ## Objetivos
 
